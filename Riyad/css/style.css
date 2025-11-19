@@ -1,0 +1,73 @@
+*{
+    /* font-family: "Work Sans", sans-serif; */
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    margin: 0 auto;
+    text-align: center;
+    padding: 50px 0 50px 0;
+}
+.hero-section{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 100px;
+}
+.cards{
+    padding: 0 20px 20px 50px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+}
+.cards .card-container {
+    height: 350px;
+    width: 200px;
+    /* border: 1px solid red; */
+    border-radius: 15px;
+    overflow: hidden;
+    /* box-shadow: 2px 2px 3px 0px; */
+    /* background: rgb(252, 251, 251); */
+}
+.cards .card-container .card-image{
+    padding-bottom: 10px;
+    width: 200px;
+}
+.cards .card-container .card-image img{
+    width: 100%;
+}
+.cards .card-container .card-text{
+    font-size: 15px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    color: gray;
+}
+.cards .card-container .card-btn{
+    font-size: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: blue;
+    color: white;
+    align-items: center;
+    width: 200px;
+    border-radius: 1000px;
+    border: none;
+}
+.cards .card-container .price{
+    font-size: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: gray;
+  
+}
+.hero-section .buy h3{
+    color: blue;
+    padding-bottom: 20px;
+}
+.hero-section .buy h2{
+    padding-bottom: 35px;
+}
+.hero-section .buy p{
+    color: gray;
+    padding-bottom: 20px;
+}
